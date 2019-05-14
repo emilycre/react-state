@@ -14,4 +14,18 @@ describe('ColorPicker Component', () => {
     wrapper.find('button').at(0).simulate('click');
     expect(wrapper.state('color')).toEqual('salmon');
   });
+
+  it('Changes color to yellow on button click', () => {
+    const wrapper = shallow(<ColorPicker />);
+    
+    wrapper.find('button').at(1).simulate('click');
+    expect(wrapper.state('color')).toEqual('yellow');
+  });
+
+  it('Changes color to blue on button click', () => {
+    const wrapper = shallow(<ColorPicker />);
+    
+    wrapper.find('button').at(2).simulate('click');
+    expect(wrapper.state('color')).toEqual('blue');
+  });
 });
