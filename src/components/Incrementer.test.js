@@ -8,7 +8,7 @@ describe('Incrementer component', () => {
     expect(wrapper).toMatchSnapshot();
   });
   
-  it('Incremembers a count on button click', () => {
+  it('Increments a count on button click', () => {
     const wrapper = shallow(<Incrementer />);
 
     wrapper.find('button').at(0).simulate('click');
