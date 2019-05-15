@@ -1,23 +1,6 @@
-.ColorPicker {
-  button {
-    border: none;
-    padding: 1em;
-
-    cursor: pointer;
-  }
-
-  .salmon {
-    background-color: salmon;
-    color: white;
-  }
-
-  .yellow {
-    background-color: gold;
-    color: gray;
-  }
-
-  .blue {
-    background-color: teal;
-    color: white;
-  }
+.ColorDisplay {
+  width: 5em;
+  height: 5em;
+  margin: 1em;
+  border-radius: 50%;
 }
