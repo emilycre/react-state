@@ -5,8 +5,8 @@ exports[`RandomColor component Renders a RandomColor 1`] = `
   style={
     Object {
       "background": "",
-      "height": "50em",
-      "width": "50em",
+      "height": "25em",
+      "width": "25em",
     }
   }
 />
