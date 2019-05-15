@@ -1,0 +1,25 @@
+.ColorPicker {
+  button {
+    border: none;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+
+    cursor: pointer;
+  }
+
+  .salmon {
+    background-color: salmon;
+    color: white;
+  }
+
+  .gold {
+    background-color: gold;
+    color: gray;
+  }
+
+  .teal {
+    background-color: teal;
+    color: white;
+  }
+}
