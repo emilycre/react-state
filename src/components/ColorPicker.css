@@ -1,0 +1,32 @@
+.ColorPicker {
+  button {
+    border: none;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 5px;
+
+    cursor: pointer;
+  }
+
+  div {
+    width: 125px;
+    height: 125px;
+    margin: 2em;
+    border-radius: 50%;
+  }
+
+  .salmon {
+    background-color: salmon;
+    color: white;
+  }
+
+  .yellow {
+    background-color: gold;
+    color: gray;
+  }
+
+  .blue {
+    background-color: teal;
+    color: white;
+  }
+}
